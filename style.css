@@ -1,0 +1,86 @@
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+img{
+    z-index: -1;
+    width: 1300px;
+    height: 1000px;
+}
+
+.medio-circulo-transp{
+    background-color: rgb(29, 29, 112);
+    width: 1000px;
+    height: 1000px;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    opacity: 0.7;
+    z-index: 1;
+    position:absolute;
+    top:1%;
+
+}
+
+.barraAmarilla{
+    background-color: rgb(255, 238, 0);
+    width: 900px;
+    height: 100px;
+    border-radius: 10px;
+    z-index: 3;
+    position: absolute;
+    top:49%;
+    left: 10%;
+
+
+}
+
+.barraVioleta{
+    background-color: rgb(56, 36, 110);
+    width: 900px;
+    height: 100px;
+    border-radius: 10px;
+    z-index: 2;
+    position: absolute;
+    top:57%
+
+}
+
+.violeta-transp-derecha{
+    background-color: blueviolet;
+    width: 250px;
+    height: 250px;
+    border-bottom-left-radius: 80%;
+    top:.9%;
+    left:62.6%;
+    position:absolute;
+    opacity: .7;
+}
+
+.violeta-transp-light-bottom{
+    background-color: rgb(167, 129, 202);
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 10px solid white;
+    top:89%;
+    right:23%;
+    z-index: 2;
+    position: absolute;
+    opacity: .7;
+}
+
+.circle-amarillo{
+    background-color: rgb(255, 238, 0);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 8px solid white;
+    right: 33%;
+    top:89%;
+    z-index: 2;
+    position: absolute;
+
+}
